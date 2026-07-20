@@ -28,7 +28,7 @@ const activities: Activity[] = [
     title: "Private tours and tailor-made excursions",
     description:
       "For those seeking exclusivity, we offer private tours tailored to your preferences. Whether you want to explore the Ouzoud Waterfalls, the dunes of Merzouga, or the Berber villages of the Atlas, we organize personalized excursions to suit your needs. Enjoy luxury service with a local guide and a comfortable vehicle to discover Morocco's treasures in complete comfort.",
-    image: "/images/activities/private-tours.PNG",
+    image: "/images/activities/private-tours.png",
     imageAlt: "Cascades d'Ouzoud, excursion privée",
   },
   {
@@ -43,7 +43,7 @@ const activities: Activity[] = [
     title: "Hot air balloon ride at sunrise",
     description:
       "Take to the skies with a hot air balloon ride over the stunning landscapes surrounding Marrakech. Soar above the red city, the Atlas Mountains, and the vast desert plains, all bathed in the magical light of sunrise. This unforgettable experience combines a sense of freedom with the beauty of the natural world.",
-    image: "/images/activities/hot-air-balloon.PNG",
+    image: "/images/activities/hot-air-balloon.png",
     imageAlt: "Montgolfière au lever du soleil",
   },
   {

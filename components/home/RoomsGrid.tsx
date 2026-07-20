@@ -3,11 +3,11 @@ import ScrollReveal from '../common/ScrollReveal';
 import SectionTitle from '../common/SectionTitle';
 
 const rooms = [
-  { name: 'Chambre Standard', image: '/images/rooms/standard.PNG' },
-  { name: 'Chambre Supérieure', image: '/images/rooms/superieure.PNG' },
-  { name: 'Chambre Deluxe', image: '/images/rooms/deluxe.PNG' },
-  { name: 'Suite Junior', image: '/images/rooms/suite-junior.PNG' },
-  { name: 'Suite Deluxe', image: '/images/rooms/suite-deluxe.PNG' },
+  { name: 'Chambre Standard', image: '/images/rooms/standard.png' },
+  { name: 'Chambre Supérieure', image: '/images/rooms/superieure.png' },
+  { name: 'Chambre Deluxe', image: '/images/rooms/deluxe.png' },
+  { name: 'Suite Junior', image: '/images/rooms/suite-junior.png' },
+  { name: 'Suite Deluxe', image: '/images/rooms/suite-deluxe.png' },
 ];
 
 export default function RoomsGrid(){

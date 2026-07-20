@@ -19,7 +19,7 @@ export default function Welcome(){
       <div className="relative">
         <ScrollReveal>
           <div className="border-4 border-gold rounded-lg overflow-hidden">
-            <Image src="/images/4.PNG" alt="patio" width={900} height={700} className="object-cover" />
+            <Image src="/images/4.png" alt="patio" width={900} height={700} className="object-cover" />
           </div>
         </ScrollReveal>
       </div>
