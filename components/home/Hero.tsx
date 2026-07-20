@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 const slides = [
   '/images/1.jpg',
-  '/images/3.PNG',
+  '/images/3.png',
 ];
 
 export default function Hero() {
