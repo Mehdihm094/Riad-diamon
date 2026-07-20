@@ -1,0 +1,50 @@
+
+/* Import des polices depuis Google Fonts (titres serif + corps sans-serif) */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables de design */
+:root{
+  --gold: #c8a24c;
+  --ivory: #fffdfa;
+  --sand: #f9efe2;
+  --anthracite: #171717;
+}
+
+html,body,#root{
+  height:100%;
+}
+
+/* Smooth native scrolling for in-page anchors */
+html { scroll-behavior: smooth; }
+
+/* Compense la navbar fixe pour l'ancre #activities */
+#activities { scroll-margin-top: 88px; }
+
+body{
+  background:var(--ivory);
+  color:var(--anthracite);
+  font-family: 'Inter', ui-sans-serif, system-ui;
+}
+
+/* Bouton doré pilule */
+.gold-btn{
+  background: linear-gradient(90deg,#d0ad5a,#b5873f);
+}
+
+/* Motif zellige léger en fond (SVG vectoriel répétitif) */
+.zellige {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 100 100'%3E%3Cg fill='%23e9dfd0' fill-opacity='0.12'%3E%3Cpath d='M50 0 L100 25 L50 50 L0 25 Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+/* Animations de reveal (IntersectionObserver) */
+.scroll-reveal{opacity:0; transform:translateY(12px); transition:opacity .6s ease, transform .6s ease;}
+.scroll-reveal.reveal{opacity:1; transform:translateY(0);} 
+
+/* Titres serif global */
+.font-serif { font-family: 'Cormorant Garamond', serif; }
+
