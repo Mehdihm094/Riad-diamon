@@ -11,13 +11,13 @@ export default function SpaSection(){
       <div className="grid md:grid-cols-2 gap-6">
         <ScrollReveal>
           <div>
-            <Image src="/IMAGES/7.PNG" alt="spa" width={900} height={600} className="rounded" />
+            <Image src="/IMAGES/7.png" alt="spa" width={900} height={600} className="rounded" />
             <p className="mt-2 text-neutral-600">Soins traditionnels et rituels marocains.</p>
           </div>
         </ScrollReveal>
         <ScrollReveal>
           <div>
-            <Image src="/images/8.PNG" alt="hammam" width={900} height={600} className="rounded" />
+            <Image src="/images/8.png" alt="hammam" width={900} height={600} className="rounded" />
             <p className="mt-2 text-neutral-600">Hammam privé et massages relaxants.</p>
           </div>
         </ScrollReveal>

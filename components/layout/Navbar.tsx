@@ -35,7 +35,7 @@ export default function Navbar(){
         <Link href="/" className="flex items-center gap-3">
           <div className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-gold/90 shadow-lg shadow-amber-500/15 ring-1 ring-white/15">
             <Image
-              src="/images/riad-logo.PNG"
+              src="/images/riad-logo.png"
               alt="Logo Diamond of Marrakech"
               width={40}
               height={40}
